@@ -95,14 +95,14 @@ const TechnologyCard = ({
       <button
         onClick={handleAddToStack}
         disabled={isAdded}
-        className={`btn mt-5 w-full rounded-xl border-2 border-black ${
-          isAdded
-            ? "bg-green-100 text-green-600"
-            : "bg-gray-900 text-white"
-        }`}
-      >
-        {isAdded ? "✓ Added to Stack" : "Add to Stack"}
-      </button>
+        className={`btn mt-5 w-full rounded-xl border border-black py-2 ${
+       isAdded
+      ? "bg-red-400 text-white"
+      : "bg-gray-900 text-white"
+    }`}
+>
+    {isAdded ? "✓ Added to Stack" : "Add to Stack"}
+</button>
     </div>
   );
 };

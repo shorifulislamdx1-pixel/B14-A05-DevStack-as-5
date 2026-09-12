@@ -8,7 +8,6 @@ const Footer = () => {
 
         <div className="grid grid-cols-1 gap-10 md:grid-cols-4">
 
-          {/* Brand */}
           <div>
             <img
               src={Logo}
@@ -28,7 +27,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Product */}
           <div>
             <h3 className="text-xs font-semibold uppercase text-gray-900">
               Product
@@ -41,7 +39,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Company */}
           <div>
             <h3 className="text-xs font-semibold uppercase text-gray-900">
               Company
@@ -54,7 +51,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Legal */}
           <div>
             <h3 className="text-xs font-semibold uppercase text-gray-900">
               Legal
@@ -68,7 +64,6 @@ const Footer = () => {
 
         </div>
 
-        {/* Bottom */}
         <div className="mt-10 border-t border-gray-100 pt-5">
 
           <div className="flex flex-col justify-between gap-3 text-xs text-gray-400 md:flex-row">

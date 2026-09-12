@@ -10,7 +10,6 @@ const Nav = () => {
 
       <div className="container mx-auto px-4 py-4">
 
-        {/* Desktop Navbar */}
         <div className="hidden md:flex justify-between items-center">
 
           <img
@@ -40,7 +39,6 @@ const Nav = () => {
         </div>
 
 
-        {/* Mobile Navbar */}
         <div className="flex md:hidden items-center justify-between">
 
           <button onClick={() => setIsOpen(!isOpen)}>
@@ -64,7 +62,6 @@ const Nav = () => {
         </div>
 
 
-        {/* Mobile Menu */}
         {isOpen && (
           <ul className="mt-4 space-y-4 border-t border-gray-100 pt-4 text-sm text-gray-600 md:hidden">
 

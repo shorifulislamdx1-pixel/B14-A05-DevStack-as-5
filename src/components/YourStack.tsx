@@ -81,7 +81,7 @@ const YourStack = ({
 
           <button
             onClick={handleRemoveAll}
-            className="mt-3 w-full rounded-lg bg-green-50 py-3 text-sm font-medium text-red-600 hover:bg-green-100"
+            className="mt-3 w-full rounded-lg bg-red-50 py-3 text-sm font-medium text-red-600 hover:bg-red-100"
           >
             Remove All
           </button>
