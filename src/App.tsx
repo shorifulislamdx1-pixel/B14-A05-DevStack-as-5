@@ -5,7 +5,7 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Technologies from "./components/Technologies";
 import type { ITechnology } from "./types/technology";
-
+import Footer from "./components/Footer";
 function App() {
   const [selectedTechnologies, setSelectedTechnologies] = useState<
     ITechnology[]
@@ -21,7 +21,7 @@ function App() {
         setSelectedTechnologies={setSelectedTechnologies}
       />
 
-      <ToastContainer />
+      <Footer />
     </>
   );
 }
