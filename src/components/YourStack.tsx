@@ -29,25 +29,14 @@ const YourStack = ({
 
   return (
     <div className="rounded-xl border border-gray-200 p-5">
-      <div className="flex justify-between items-center">
-        <div>
-          <h3 className="text-lg font-bold">
-            Your Stack
-          </h3>
+      <div>
+        <h3 className="text-lg font-bold">
+          Your Stack
+        </h3>
 
-          <p className="mt-1 text-sm text-gray-400">
-            {selectedTechnologies.length} Technology Selected
-          </p>
-        </div>
-
-        {selectedTechnologies.length > 0 && (
-          <button
-            onClick={handleRemoveAll}
-            className="text-sm text-red-500"
-          >
-            Remove All
-          </button>
-        )}
+        <p className="mt-1 text-sm text-gray-400">
+          {selectedTechnologies.length} Technology Selected
+        </p>
       </div>
 
       {selectedTechnologies.length === 0 ? (
@@ -89,6 +78,13 @@ const YourStack = ({
               </div>
             );
           })}
+
+          <button
+            onClick={handleRemoveAll}
+            className="mt-3 w-full rounded-lg bg-green-50 py-3 text-sm font-medium text-red-600 hover:bg-green-100"
+          >
+            Remove All
+          </button>
         </div>
       )}
     </div>
