@@ -18,13 +18,13 @@ const YourStack = ({
 
     setSelectedTechnologies(remainingTechnologies);
 
-    toast.success("Technology removed from your stack!");
+    toast.info("Technology removed from your stack!");
   };
 
   const handleRemoveAll = () => {
     setSelectedTechnologies([]);
 
-    toast.success("All technologies removed!");
+    toast.error("All technologies removed!");
   };
 
   return (

@@ -23,7 +23,7 @@
     "id": 3,
     "name": "Svelte",
     "category": "Frontend",
-    "description": "A cybernetically enhanced web app framework with compile-time reactivity.",
+    "description": "Cybernetically enhanced web apps with compile-time reactivity and zero virtual DOM overhead.",
     "icon": "https://icon.icepanel.io/Technology/svg/Svelte.svg",
     "rating": 4.8,
     "difficulty": "Intermediate",
@@ -37,7 +37,7 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Next.js.svg",
     "rating": 4.9,
     "difficulty": "Intermediate",
-    "badge": "Popular"
+    "badge": ""
   },
   {
     "id": 5,
@@ -63,7 +63,7 @@
     "id": 7,
     "name": "Redis",
     "category": "Database",
-    "description": "An in-memory data structure store used as a high-speed database, cache, and message broker.",
+    "description": "In-memory data structure store used as a high-speed database, cache, and message broker.",
     "icon": "https://icon.icepanel.io/Technology/svg/Redis.svg",
     "rating": 4.8,
     "difficulty": "Intermediate",
@@ -91,6 +91,16 @@
   },
   {
     "id": 10,
+    "name": "Java",
+    "category": "Language",
+    "description": "A secure, object-oriented programming language designed for portability and scale.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Java.svg",
+    "rating": 4.6,
+    "difficulty": "Intermediate",
+    "badge": "Robust"
+  },
+  {
+    "id": 11,
     "name": "Tailwind CSS",
     "category": "Styling",
     "description": "A utility-first CSS framework packed with classes that can be composed to build custom UI.",
@@ -100,7 +110,7 @@
     "badge": "Modern"
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "Docker",
     "category": "DevOps",
     "description": "A platform designed to build, share, and run containerized applications reliably.",

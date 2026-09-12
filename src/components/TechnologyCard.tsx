@@ -28,9 +28,13 @@ const TechnologyCard = ({
     toast.success(`${technology.name} added to your stack!`);
   };
 
-  return (
-    <div className="rounded-xl border border-gray-200 p-5 shadow-sm">
-      <div className="flex justify-between items-start">
+  
+    return (
+<div
+  className={`rounded-xl border-2 p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${
+    isAdded ? "border-red-500" : "border-gray-200"
+  }`}
+>      <div className="flex justify-between items-start">
         <img
           src={technology.icon}
           alt={technology.name}
@@ -65,17 +69,20 @@ const TechnologyCard = ({
       </div>
 
       <button
-        onClick={handleAddToStack}
-        disabled={isAdded}
-        className={`btn mt-5 w-full border-none ${
-          isAdded
-            ? "bg-green-100 text-green-600"
-            : "bg-gray-900 text-white"
-        }`}
-      >
-        {isAdded ? "✓ Added to Stack" : "Add to Stack"}
-      </button>
+      onClick={handleAddToStack}
+      disabled={isAdded}
+      className={`btn mt-5 w-full rounded-xl border-2 border-black ${
+      isAdded
+      ? "bg-green-100 text-green-600"
+      : "bg-gray-900 text-white"
+  }`}
+>
+  {isAdded ? "✓ Added to Stack" : "Add to Stack"}
+</button>
+       
     </div>
+
+   
   );
 };
 

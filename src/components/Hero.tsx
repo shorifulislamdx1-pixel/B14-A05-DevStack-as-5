@@ -20,15 +20,15 @@ const Hero = () => {
             your next project.
           </p>
 
-          <div className="mt-8 flex gap-3">
-            <button className="btn border-none bg-gradient-to-r from-orange-500 via-pink-500 to-violet-600 text-white">
-              Explore Technologies
+          <div className="mt-8 flex gap-4">
+            <button className="rounded-lg border-2 border-black bg-gradient-to-r from-orange-500 via-pink-500 to-violet-600 px-6 py-3 font-medium text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+             Explore Technologies
             </button>
 
-            <button className="btn bg-white border border-gray-200">
-              Learn More
-            </button>
-          </div>
+             <button className="rounded-lg border-2 border-gray-200 bg-white px-6 py-3 font-medium text-gray-700 transition-all duration-300 hover:-translate-y-1 hover:border-gray-400 hover:shadow-md">
+           Learn More
+               </button>
+             </div>
         </div>
 
         <div className="w-1/2 flex justify-center">
