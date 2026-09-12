@@ -21,13 +21,13 @@ const TechnologyCard = ({
     if (isAdded) {
       toast.warning("This technology is already added!");
       return;
-    }
+      }
 
     setSelectedTechnologies([...selectedTechnologies, technology]);
 
     toast.success(`${technology.name} added to your stack!`);
   };
-
+    
   return (
     <div
       className={`rounded-xl border-2 p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${
